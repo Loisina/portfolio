@@ -1,0 +1,65 @@
+.layout {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 25%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  overflow-y: scroll;
+
+
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  justify-content: space-around;
+}
+
+
+.avatar {
+  height: 150px;
+  width: 150px;
+  background-image: url(../images/avatar.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+
+.main {
+  width: 75%;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url(../images/image.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.hero div {
+  height: 30%;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+
+
